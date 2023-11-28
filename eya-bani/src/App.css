@@ -1,0 +1,69 @@
+/*==GLOBAL CSS==*/
+
+* {
+  box-sizing: border-box;
+  font-family: Courier, serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h6,
+h5,
+h3,
+h4 {
+  margin: 0 !important;
+  font-weight: 600 !important ;
+  padding: 0;
+}
+
+.LL{
+  text-decoration: none !important;
+}
+:root {
+  --black: #111111;
+  --white: #fff;
+  --brown: #877869;
+  --beige: #e6ddd9;
+  --brown1: #877869;
+  --beige1: #e6ddd9;
+}
+
+.dark-theme {
+  --black: #fff;
+  --white: #000;
+  --brown:#ffff;
+  --beige1: #fff;
+  --brown1: #000;
+  --beige:black;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+input,
+textarea {
+  border: none;
+  padding: 0.7rem;
+  color: var(--brown1)!important ;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--brown1);
+}
+ul {
+  list-style: none;
+}
+#link {
+  text-decoration: none;
+
+}
+
+.main {
+  padding-top: 90px;
+  min-height: 90vh;
+}

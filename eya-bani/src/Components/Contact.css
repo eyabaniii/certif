@@ -1,0 +1,176 @@
+/*==CONTACT==*/
+.formec {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start !important;
+  gap: 0.7rem;
+}
+.contactt .contactt1 {
+  color: var(--brown);
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start !important;
+  gap: 1rem;
+}
+.cb {
+  width: fit-content;
+}
+
+.contactt {
+  background-color: var(--beige);
+}
+.contactt .contactt2 > div img {
+  border-radius: 50% 50% 0px 0px;
+  max-width: 100%;
+  height: 100%;
+}
+.contactt .contactt2 > div {
+  max-width: 100%;
+  height: 100%;
+}
+.contactt .contactt2 {
+  background-color: var(--brown);
+  color: var(--beige);
+}
+.contactt .contactt2 a {
+  fill: var(--beige);
+}
+.contactt .contactt1 .formec label {
+  width: 100%;
+}
+.dbt {
+  background-color: var(--brown);
+  color: var(--beige);
+  padding: 4px 15px;
+  border: 2px solid var(--brown);
+  font-size: 1.2rem;
+  width: max-content;
+}
+.ssvg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.ssvg svg {
+  transform: scale(1.4);
+}
+.contactt .check label {
+  color: var(--brown);
+}
+
+/*==MEDIA QUERRY*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .contactt {
+    padding: 5vh 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .contactt .contactt2 > div {
+    padding: 3vh 4vw;
+  }
+  .contactt .contactdes h1 {
+    font-size: 13vw;
+  }
+  .contactt .contactt2 h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+  .contactt p {
+    font-size: 4vw;
+  }
+
+  .formec label {
+    font-size: 10vw;
+  }
+  .check label {
+    font-size: 4.5vw !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contactt {
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .contactt .contactdes h1 {
+    font-size: 11vw;
+  }
+  .contactt .contactt2 > div {
+    padding: 3vh 8vw;
+  }
+  .contactt .contactt2 h1 {
+    font-size: 8vw;
+    text-align: center;
+  }
+  .contactt p {
+    font-size: 3.2vw;
+  }
+
+  .formec label {
+    font-size: 6vw;
+  }
+  .contactt .check label {
+    font-size: 2vw !important;
+  }
+}
+@media (min-width: 769px) {
+  .contactt .contactt2 > div {
+    padding: 3vh 2vw 0 2vw;
+  }
+  .contactt .contactdes h1 {
+    font-size: 3.5vw;
+  }
+  .contactt .contactt2 h1 {
+    font-size: 1.5vw;
+  }
+
+  .contactt .contactt2 p {
+    font-size: 0.7vw;
+  }
+  .contactt .contactt1 input,
+  .contactt .contactt1 textarea {
+    width: 80%;
+    padding: 1.3vw;
+  }
+  .contactt2 {
+    padding-bottom: 1.5rem;
+  }
+  .contactt p {
+    font-size: 0.9vw;
+    width: 82%;
+  }
+  .check {
+    font-size: 1vw;
+  }
+  .contactt {
+    padding: 10vh 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+
+  .formec label {
+    font-size: 1vw;
+  }
+  .formec label {
+    font-size: 3vw;
+  }
+  .check label {
+    font-size: 1.7vw !important;
+  }
+}

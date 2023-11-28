@@ -1,0 +1,120 @@
+.about {
+    background-color: var(--beige);
+    width: 100%;
+    max-width: 100%;
+    color: var(--brown);
+  }
+  .about #carousel {
+    width: 100%;
+  }
+  
+  .fim {
+    width: 100%;
+  
+    object-fit: cover;
+    border-radius: 400px 400px 0px 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .firstdes {
+    width: 100%;
+  }
+  
+  .about .fim img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 400px 400px 0px 0px;
+  }
+  
+  /*==MEDIA QUERRY*/
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 100px;
+      padding: 7vh 7vw;
+    }
+    .about h1 {
+      font-size: 10vw;
+    }
+    .about p {
+      margin: 1rem 0 !important;
+      font-size: 4.5vw;
+    }
+    .about  .fim {
+      margin: 150px 0 0 20px;
+    }
+  
+    .about .ci img {
+      height: 20rem;
+      width: 100%;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 200px;
+      padding: 2vh 7vw;
+    }
+    .about h1 {
+      font-size: 7.9vw;
+    }
+    .about p {
+      margin: 1rem 0 !important;
+      font-size: 3.2vw;
+    }
+    .about  .fim {
+      margin: -150px 0 0 -20px;
+    }
+    .about   .ci img {
+      height: 20rem;
+      width: 100%;
+    }
+  }
+  @media (min-width: 769px) {
+    .about {
+      display: grid;
+      grid-template-columns: 50%  35%;
+      padding: 4vh 0vw 4vh 7vw;
+     justify-content: center;
+     align-items: center;
+     gap: 15%;
+      
+    }
+    .about h1 {
+      font-size: 3vw;
+    }
+    .about p {
+      margin: 1rem 0 !important;
+      font-size: 1vw;
+    }
+    .about  .fcc {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
+    }
+   .about .fim {
+      margin: 0px  0px  0px 600px !important;
+    }
+  
+    .about  .ci img {
+      height: 45rem;
+      width: 100%;
+    }
+    .about .fim img {
+      width: 300px;
+   
+    }
+  }
+  

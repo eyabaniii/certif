@@ -1,0 +1,63 @@
+.four{
+    width: 100%;
+    height: 100%;
+    color: var(--brown);
+    background-color: var(--white);
+}
+.fouri{width: 100%;
+height: 100%;}
+.fouri img {object-fit: cover;
+    border-radius: 400px 400px 0px 0px;}
+/*==MEDIA QUERRY*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .four {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+   padding: 7vh 7vw;
+      gap: 1rem;
+    }
+    .four2 {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        gap: 40px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .four {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 7vh 7vw;
+    }
+    .four2 {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        gap: 40px;
+    }
+  }
+  @media (min-width: 769px) {
+    .four {
+display: grid;
+grid-template-columns: 55% 40%;
+padding: 10vh  2vw 10vh   30vw;
+gap: 5%;
+    }
+    .four2 {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        gap: 40px;
+    }
+
+  }

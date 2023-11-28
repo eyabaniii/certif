@@ -1,0 +1,73 @@
+.Six{
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(/src/Assets/j2.jpeg);
+   object-fit: cover;
+   background-position:center ;
+   color: var(--white);
+   background-attachment: fixed;
+   width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;}
+   .Six .dbt{
+       background-color:var(--brown1);
+       color: var(--beige1);
+       border: 2px solid var(--brown1);
+   }
+   .join2 input{
+    height: 2.6rem;
+    width: 8rem;
+ }
+   /*==MEDIA QUERRY*/
+   
+   @media (min-width: 320px) and (max-width: 480px) {
+       .Six {
+     
+      padding: 10vh 7vw;
+     
+       }
+   .join2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+gap: 5px;
+   }
+     }
+
+     @media (min-width: 481px) and (max-width: 768px) {
+       .Six {
+        
+         padding: 7vh 7vw;
+       }
+       .join2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+gap: 5px;
+       }
+     }
+     @media (min-width: 769px) {
+       .Six {
+        height: 50vh;
+   padding: 10vh 0 ;
+ 
+       }
+       .Six p:last-child{
+        width: 50%;
+        text-align: center;
+       }
+       .join2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+gap: 5px;
+       }
+   
+     }

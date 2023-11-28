@@ -1,0 +1,62 @@
+.product-form {
+ 
+color: var(--beige1);
+  padding: 20px;
+  background-image: url(/src/Assets/loginphoto.jpeg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 10px var(--brown);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.addprod{background-color: var(--beige);
+width: 100%;
+height: 100%;}
+
+
+/*==MEDIA QUERRY*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .product-form {
+  width: 100%;     
+  }
+
+.addprod{
+  padding: 10vh 7vw;
+}
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .addprod{
+      padding: 10vh 7vw;        
+  }
+  .product-form {
+    width: 80%;  
+    margin: auto;   
+    }
+  
+}
+@media (min-width: 769px) {
+  .product-form {
+    width: 30%; 
+    margin: auto auto;   
+    }
+    .addprod{
+      padding: 10vh 7vw;        
+  }
+}

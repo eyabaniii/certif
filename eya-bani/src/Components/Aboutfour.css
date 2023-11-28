@@ -1,0 +1,47 @@
+.aboutfour{
+ background-repeat: no-repeat;
+background-size: cover;
+background-image: url(/src/Assets/abb4.jpeg);
+object-fit: cover;
+background-position:center ;
+color: var(--brown1);
+background-attachment: fixed;
+width: 100%;
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;}
+.aboutfour .dbt{
+    background-color:var(--brown1);
+    color: var(--beige1);
+}
+
+/*==MEDIA QUERRY*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .aboutfour {
+  
+   padding: 7vh 7vw;
+  
+    }
+
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .aboutfour {
+     
+      padding: 7vh 7vw;
+    }
+ 
+  }
+  @media (min-width: 769px) {
+    .aboutfour {
+
+padding: 10vh ;
+
+    }
+ 
+
+  }
